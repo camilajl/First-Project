@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    background-color:#FCFBE4 ;
+}
+
+header {
+
+    width: 100%;
+    height: 150px;
+    min-width:288px;
+
+}
+
+nav{
+    display:flex;
+    justify-content:end;
+    padding-top: 30px;
+}
+
+nav .main-nav{
+
+    width:350px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    align-items: center;
+    margin-right: 50px;
+}
+.main-nav a{
+
+    margin-right: 10px ;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: black;
+}
+
+.siteTitle{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 2.4rem;
+}
+
+main {
+    width: 100%;
+    min-width:288px;
+    height: 500px;
+}
+
+.foto {
+
+    width: 200px ;
+    height: 200px;
+   background-image:url('https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   margin-left: 300px;
+   border-radius: 10px;
+   
+   
+}
+
+.foto-description{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto;
+  
+
+}
+
+.description{
+    width: 450px;
+    font-size: 1.6rem;
+    color: black;
+    font-weight: 300;
+    padding-top:10px ;
+   
+   
+
+
+}
+
+.blogTitle{
+
+    margin: 45px 0 0 40%;
+    font-size: 2.6rem;
+
+}
+
+.videos {
+
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.videos img {
+   
+    height: 200px;
+    margin-right: 10px;
+
+}
+
+.videos button{
+
+    width: 150px;
+    height: 50px;
+    margin-left: 50px;
+
+}
